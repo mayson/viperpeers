@@ -59,7 +59,7 @@
 "User protected!": "Пользователь защищен!"
 "Password incorrect. Provided: %s": "Неверный пароль. Вы послали: %s"
 "Settings\\Set hub topic": "Настройки\\Установить топик хаба"
-"New Topic": "НоНовый топик"
+"New Topic": "Новый топик"
 "<HUB> Too low share. Min share is %s.|": "<HUB> Слишком маленькая шара. Минимальная шара: %s.|"
 "<HUB> Too many hubs open. Max hubs is %s.|": "<HUB> Слишком много хабов открыто. Максимум хабов: %s.|"
 "<HUB> Too few slots open. Min slots is %s.|": "<HUB> Слишком мало слотов открыто. Минимум слотов: %s.|"
