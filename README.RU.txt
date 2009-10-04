@@ -1,3 +1,9 @@
+ViperPeers - p2p-хаб для простокола NMDC (DirectConnect).
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Данный проект - форк хаба ViperHive (http://code.google.com/p/viperhive/)
+    Однако основным отличием данного проекта стало использование Twisted (http://code.google.com/p/viperhive/)
+и соответственно использование самого удачного для конкретной ОС системного шедулера (epoll, kqueue, ..., select)
+
 Установка и запуск ViperPeers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -5,7 +11,7 @@
 ~~~~~~~~~
     * Качаем и ставим: Python (http://www.python.org/download/releases/)
     * Качаем и ставим: PyYaml (http://pyyaml.org/wiki/PyYAML) (соответственно версии питона)
-    * Качаем и ставим: Twisted (http://twistedmatrix.com/trac/) (соответственно версии питона)
+    * Качаем и ставим: Twisted (http://twistedmatrix.com/) (соответственно версии питона)
 
     Для Debian/Ubuntu вышеуказанные действия можно заменить командой apt-get install python-twisted-core python-yaml
 
