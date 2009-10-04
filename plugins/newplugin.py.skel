@@ -1,0 +1,34 @@
+#!/usr/bin/env python
+
+# --- skeleton for plugin.
+#
+# ---
+
+import plugin
+
+# --- !! Class name SHOULD BE FileName_plugin
+class name_plugin(plugin.plugin):
+        
+	def __init__(self, hub):
+
+                # Don't forget replace 'name_plugin' here
+		super(name_plugin,self).__init__(hub)
+                
+
+                # --- SETTINGS FOR PLUGIN ---
+                #if 'name' not in self.hub.settings:
+                #        self.hub.settings['name']={}
+        
+                # --- REGISTERING COMMANDS ---
+                #self.commands['?']=self.?
+		
+                # --- REGISTERING SLOTS (On Event reaction)
+		#self.slots['on?']=self.on?
+                
+                # --- REGISTERING USERCOMMANDS
+		#self.usercommands['?']='$UserCommand 1 2 '+hub._('MENU\\ITEM')+'$<%[mynick]> '+hub.core_settings['cmdsymbol']+'COMMAND %[nick] %[line:'+hub._('message')+':]&#124;|'
+		
+	#def COMMAND(self,addr,params=[]):
+	#	#params 'nick' 'message'
+	#
+	#	return RESULT_STRING

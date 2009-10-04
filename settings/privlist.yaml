@@ -1,0 +1,38 @@
+op:
+- mute
+- muteNick
+- muteAddr
+- UnBanAddr
+- ListReg
+- ListBans
+- ListMute
+- UI
+- BanAddr
+- PasswdTo
+- ListForbid
+- ListPlugins
+- unmute
+- unmuteNick
+- unmuteAddr
+- Ban
+- BanNick
+- say
+- ActivePlugins
+- SetMotd
+- Passwd
+- Help
+- Kick
+- join
+- left
+- listroom
+owner:
+- '*'
+reg:
+- Passwd
+- join
+- left
+- listroom
+unreg:
+- regme
+- join
+- left

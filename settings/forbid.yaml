@@ -1,0 +1,16 @@
+immune:
+- owner
+- op
+regexps:
+  (?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?):
+    action: mute %[nick] all 1 ссылки запрещены, заглушение на 1 час!
+    source: all
+  (?i)((?<!dc\.hovel)(?<!forum\.proc))[.](ru|com|it|fr|us|net|name):
+    action: mute %[nick] all 1 ссылки запрещены, заглушение на 1 час!
+    source: all
+  (?i)dchub:/:
+    action: mute %[nick] all 1 ссылки на хабы запрещены. заглушение на 1 час!
+    source: all
+  (?i)https?://(?!(dc\.hovel\.ru|forum\.proc\.ru)):
+    action: mute %[nick] all 1 ссылки запрещены, заглушение на 1 час!
+    source: all

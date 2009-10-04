@@ -1,0 +1,44 @@
+Lang: ru.cp1251
+OpLevels:
+- owner
+- op
+- chatroom
+Protected:
+- owner
+- op
+autoload:
+- ban
+- mute
+- forbid
+- say
+- motd
+- regme
+- massmsg
+- iplog
+- chathist
+- chatroom
+- goodplug
+autosave: 120
+cmdsymbol: '!'
+hubinfo:
+  address: example.com
+  description: Viperhive powered hub
+  hubowner: owner
+  type: ViperHive Hub
+hubname: Viperhive powered hub
+loglevel: 20
+max_hubs: 1000
+max_users: 100000
+min_share: 0
+min_slots: 0
+pass_limits:
+- owner
+- op
+- chatroom
+port:
+- 411
+- 11411
+topic: Viperhive powered hub
+userip:
+- owner
+- op

@@ -1,0 +1,4 @@
+"Register My Nick ...": "Зарегистрировать МОЙ ник"
+"Usage: %sregme password": "Использование: %sregme пароль"
+"Registered nick: %s with password: %s": "Зарегистрирован ник: %s с паролем: %s"
+"To register please use the %sregme. The syntax is: %sregme <password>": "Для регистрации воспользуйтесь командой %sregme. Использовать так: %sregme <пароль>"

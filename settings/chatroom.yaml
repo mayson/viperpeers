@@ -1,0 +1,7 @@
+'#OpChat':
+  allow:
+  - owner
+  - op
+  autojoin:
+  - owner
+  - op
